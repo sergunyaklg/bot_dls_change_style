@@ -18,7 +18,3 @@ RUN pip install --upgrade pip && \
 ENV NAME World
 
 CMD ["python", "app.py"]
-
-# docker build -t telegram-bot .
-
-# docker run --env-file env.list -p 4000:80 your-image-name
